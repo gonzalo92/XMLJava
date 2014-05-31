@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+	
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style type="text/css">/*<![CDATA[*/
+
+			﻿body,td,th {
+			font-family: Verdana, Geneva, sans-serif;
+			font-size: 115%;
+			font-weight: normal;
+			}
+			#rounded-corner{font-family:"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;font-size:12px;width:310px;text-align:left;border-collapse:collapse;margin:0px; margin-top:10;}
+			#rounded-corner thead th.rounded-company{background:#b9c9fe url("http://www.palabrasque.com/css/left.png") left -1px no-repeat;}
+			#rounded-corner thead th.rounded-q4{background:#b9c9fe url("http://www.palabrasque.com/css/right.png") right -1px no-repeat;}
+			#rounded-corner th{font-weight:normal;font-size:14px;color:#039;background:#b9c9fe;padding:2px;}
+			#rounded-corner td{background:#e8edff;border-top:1px solid #fff;color:#669;padding:2px;}
+			#rounded-corner tfoot td.rounded-foot-left{background:#e8edff url("http://www.palabrasque.com/css/botleft.png") left bottom no-repeat;}
+			#rounded-corner tfoot td.rounded-foot-right{background:#e8edff url("http://www.palabrasque.com/css/botright.png") right bottom no-repeat;}
+			#rounded-corner tbody tr:hover td{background:#d0dafd;}
+			#letra-grande {};
+			#letra-grande td{}
+			.resalta {
+			color:#B35FFE; text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+			}
+			h1, h2, h3, p, dt, dd, td, li, div {font-family: Arial, Helvetica, sans-serif;}
+			h1{margin:0px;letter-height: 0px; margin-bottom:0px;text-align:center;padding:0px 2% 0px 2%;background-color:#b9c9fe;color:#000055;font-weight:bold;}
+			h2 {background-color: #eeeeee;padding:6px;margin:0px;}
+			h3 {margin:0px;margin-bottom:0px;background-color: #eeeeee;padding:4px;}
+			h4 {margin:0px;margin-bottom:0px;}
+			body {margin:0; padding:0; height:100%; text-align:left;background:#ffffff;}
+			hr {width: 100%;border: 1px dashed rgb(0, 0, 203);}
+			a:hover {background-color:yellow;}
+			.line1 {background-color: #eeeeee;padding:2px 3px 0px 2px;margin:1px;}
+			.c{font-size:smaller;color:#999999;}
+			.d{font-size:small;color:#777777;}
+			.top{}
+			.top a:link {text-decoration: none; color:#000044;}
+			.top a:visited {text-decoration: none; color:#000044;}
+			.top a:active {text-decoration: none; color:#000044;}
+			.top a:hover {text-decoration: underline;color:#000044;background-color:#b9c9fe; }
+			.e{color:red;font-weight:bold;}
+			.rig {position:absolute;right:5px;width:120px;}
+			.lef {position:absolute;left:5px;width:160px;}
+			.mid {position:absolute;left:170px;right:30px;padding:2%}
+			.m{margin:5px 1% 0px 1%;padding:2%}
+			.f{margin:5px 1% 0px 1%;text-align:center;}
+			.r{position: absolute;top:5px;left:10px;width: 130px;background:#ffffcc;margin:0px;padding:3px;height:610px;}
+			li.inl {display:inline;padding-left:1em;padding-right:1em;border-right:0px;}
+			li.last {display:inline;padding-left:1em;padding-right:1em;border-right:0px;}
+		/*]]>*/</style>
+		<title>Generador de palabras aleatorias al azar</title>
+		<meta name="keywords" content="generador de palabras aleatorias" />
+		<meta name="description" content="Pulsa el bot&#243;n y ver&#225;s una palabra escogida al azar. &#218;til para juegos tipo Pictionary." />
+		<meta name="robots" content="INDEX,FOLLOW" />
+		<meta name="rating" content="general" />
+		<meta name="DC.title" content="Generador de una palabra al azar" />
+		<meta name="DC.format" content="text/html" />
+		<meta name="DC.language" content="es" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="-1" />
+		<script type="text/javascript">/*<![CDATA[*/
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-3453954-21']);
+			_gaq.push(['_trackPageview']);
+			(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		/*]]>*/</script>
+	</head>
+	
+<body bgcolor="#FFFFFF" text="#000000" link="#CC3300" vlink="#CC3300" alink="#FF0000">
+		<script type="text/javascript">/*<![CDATA[*/window.google_analytics_uacct = "UA-3453954-21";/*]]>*/</script>
+		<div id="object1" style="position:absolute; left:25px; top:-100px; z-index:+1;"></div>
+		<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFCC00">
+			<tbody>
+				<tr>
+					<td valign="top" bgcolor="#FFFFFF">
+						<h1>Generador de palabras aleatorias</h1>
+					</td>
+					<td align="right" valign="top" bgcolor="#FFFFFF"> </td>
+				</tr>
+				<tr>
+					<td valign="middle" bgcolor="#FFFFFF">
+						<center>
+							<h2>
+								<font size="1" face="Tahoma, Tahoma, Verdana, Arial" color="#999999">
+									Versi&#243;n:
+									1.08 - 4.540 palabras diferentes
+								</font>
+							</h2>
+						</center>
+					</td>
+					<td align="right" valign="middle" bgcolor="#FFFFFF"> </td>
+				</tr>
+			</tbody>
+		</table>
+		<center>
+			<br />
+			<script async="async" src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">/*<![CDATA[*//*]]>*/</script>
+			<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6136738418739442" data-ad-slot="1159275150"></ins>
+			<script>/*<![CDATA[*/(adsbygoogle = window.adsbygoogle || []).push({});/*]]>*/</script>
+			<font face="Verdana, Tahoma, Arial" size="2">
+				<br />
+				Palabra aleatoria:
+				<br />
+				<font size="6"></font>
+				<strong>Secreto</strong>
+			</font>
+			<table border="0" align="center" cellpadding="4" cellspacing="0" bgcolor="#b9c9fe">
+				<tbody>
+					<tr align="center" valign="middle">
+						<td>
+							<form action="" method="get" name="form1" id="form1">
+								<table border="1" cellpadding="4" cellspacing="0" bordercolor="#3300FF">
+									<tbody>
+										<tr>
+											<td align="right" valign="bottom">
+												<input type="submit" value="Nueva palabra" name="Submit" />
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</form>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<br />
+			Buscar significado en:
+			<br />
+			<a href="http://buscon.rae.es/drae/srv/search?val=secreto" target="_blank">R.A.E.</a>
+			<a href="http://es.wikipedia.org/wiki/Secreto" target="_blank">Wikipedia</a>
+			<a href="http://www.google.es/search?hl=es&#38;safe=on&#38;q=Secreto&#38;oq=Secreto&#38;aq=f&#38;aqi=&#38;aql=&#38;gs_sm=s" target="_blank">Google</a>
+			<br />
+			<center>
+				<br />
+				<script async="async" src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">/*<![CDATA[*//*]]>*/</script>
+				<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6136738418739442" data-ad-slot="1159275150"></ins>
+				<script>/*<![CDATA[*/(adsbygoogle = window.adsbygoogle || []).push({});/*]]>*/</script>
+			</center>
+			<table width="80%">
+				<tbody>
+					<tr>
+						<td>
+							<p>
+								Este generador de palabras aleatorias es utilizado en juegos como el Pictionary.
+								Por ejemplo, genera una palabra, dib&#250;jala y otros deben adivinar cual es la palabra.
+								<br />
+								<br />
+								S&#243;lo tienes que pulsar el bot&#243;n &#34;Nueva palabra&#34; para crear una nueva palabra aleatoria.
+							</p>
+							<p>
+								En este momento generamos 4.540 palabras aleatorias en espa&#241;ol, la mayor&#237;a son de vocabulario b&#225;sico. Si alguna palabra no deber&#237;a de estar aqu&#237; por ser demasiado dif&#237;cil, o estar mal escrita u otra raz&#243;n, por favor env&#237;anos un mensaje con este
+								<a href="http://www.palabrasque.com/enviar_mensaje/index.php" target="_blank">formulario de contacto</a>
+								.
+								<br />
+							</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<br />
+			<font size="2">
+				<a href="http://www.palabrasque.com/">
+					<strong>Volver al inicio de &#34;Palabras que&#34;</strong>
+				</a>
+			</font>
+			<br />
+			<br />
+			<script async="async" src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">/*<![CDATA[*//*]]>*/</script>
+			<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6136738418739442" data-ad-slot="1159275150"></ins>
+			<script>/*<![CDATA[*/(adsbygoogle = window.adsbygoogle || []).push({});/*]]>*/</script>
+			<br />
+			 
+			<table align="center">
+				<tbody>
+					<tr>
+						<td>
+							<p>Otros recursos de palabras que tienen caracter&#237;sticas especiales:</p>
+							<ul>
+								<li>
+									<a href="http://www.palabrasque.com/palabras-por-tamano-numero-letras/index.php">Palabras ordenadas por n&#250;mero de letras</a>
+									.
+								</li>
+								<li>
+									<a href="http://www.palabrasque.com/crucigramas/crucigramas.php">Generador de crucigramas</a>
+									. Elige un tema y autom&#225;ticamente te crea un crucigrama listo para imprimir. Hay millones de combinaciones diferentes.
+								</li>
+								<li>
+									<a href="http://www.palabrasque.com/crucigramas/crucigramas.php?ActivarSopa=1">Generador de sopas de letras</a>
+									. Igual que antes, elige el tema deseado y dificultad, ya sea para ni&#241;os, dif&#237;ciles, f&#225;ciles, de animales... y de manera autom&#225;tica obtendr&#225;s tu sopa de letras. Nunca se repiten los dise&#241;os.
+								</li>
+								<li>
+									<a href="http://www.palabrasque.com/contador-de-palabras/index.php">Contador de palabras y caracteres</a>
+									. Para poder contar cuantas palabras, caracteres y las veces que aparece cada palabra y cada letra en un texto.
+								</li>
+								<li>
+									<a href="http://www.palabrasque.com/palabra-a-partir-de-letras.php">Palabras generadas a partir de letras desordenadas (Apalabrados, Scrabble,...)</a>
+									. &#191;Qu&#233; palabras tienen las letras &#34;scblrmoea&#34;?
+									<br />
+								</li>
+								<li>
+									<a href="http://www.palabrasque.com/nombres-que-rimen-con-nombres/index.php">Nombres que rimen con otros nombres</a>
+									: Manuel rima con Miguel, Samuel, etc.
+								</li>
+								<li>
+									<a href="http://www.palabrasque.com/palabras-capicua/index.php">Palabras que sean capic&#250;a (l&#233;elas normal o al rev&#233;s)</a>
+									: datad, ave, arroz, etc.
+								</li>
+								<li>
+									<a href="http://www.palabrasque.com/palabras-5-vocales/index.php">Palabras que contengan las 5 vocales</a>
+									: murci&#233;lago, ayuntamiento y 42.100 palabras m&#225;s.
+								</li>
+								<li>
+									<a href="http://www.palabrasque.com/palabras-1-sola-vocal/index.php">Palabras que tengan una sola vocal</a>
+									: Ana cantaba la nana.
+								</li>
+								<li>
+									<a href="http://www.palabrasque.com/palabras-trifelios/index.php">Palabras trifelios</a>
+									: jam&#243;njam&#243;nja (jam&#243;n y monja).
+								</li>
+								<li>
+									Palabras para crucigramas (en construcci&#243;n, temporalmente utiliza el
+									<a href="http://www.palabrasque.com/palabras-por-tamano-numero-letras/index.php">generador de palabras a partir de letras desordenadas</a>
+									).
+								</li>
+							</ul>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</center>
+		<hr />
+		<table align="center">
+			<tbody>
+				<tr>
+					<td>
+						<center>
+							<p align="center">
+								<font color="#FF6633" face="Tahoma, Verdana, Arial">
+									<a href="http://www.palabrasque.com/enviar_mensaje/index.php">
+										&#191;Sugerencias, palabras demasiado complicadas,  quejas?
+										<br />
+										contacta con nosotros
+									</a>
+									.
+									<br />
+									<br />
+									<font size="2">
+										(C)
+										<a href="http://www.palabrasque.com/">www.palabrasque.com</a>
+										(
+										<a href="politica-de-privacidad.php" rel="nofollow">pol&#237;tica de privacidad</a>
+										)
+									</font>
+								</font>
+							</p>
+						</center>
+						<script type="text/javascript">/*<![CDATA[*/
+							var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+							document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+						/*]]>*/</script>
+						<script type="text/javascript">/*<![CDATA[*/
+							try {
+							var pageTracker = _gat._getTracker("UA-3453954-21");
+							pageTracker._trackPageview();
+							} catch(err) {}
+						
+/*]]>*/</script>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
